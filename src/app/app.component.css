@@ -1,0 +1,19 @@
+.display {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.teclado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
