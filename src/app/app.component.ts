@@ -11,8 +11,9 @@ export class AppComponent {
 
   botoes: string[] = ['1', '2', '3', '4', '5', '+']
 
-  digita(numero: string): void {
-    this.tela = this.tela + String(numero);
+  digita(dados: { valor: string, qtd: number }): void {
+    this.tela = this.tela + String(dados.valor);
+    console.log(`A tecla ${dados.valor} já foi apertada ${dados.qtd} vezes.`)
   }
 
   calcula(): void {

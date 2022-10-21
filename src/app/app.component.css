@@ -4,13 +4,7 @@
     font-size: 2em;
 }
 
-button {
-    background-color: blueviolet;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    width: 30%;
-}
+
 
 .teclado {
     display: flex;

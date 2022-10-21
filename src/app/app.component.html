@@ -1,6 +1,6 @@
-<input type="text" [(ngModel)]="tela" id=""><br>
+<app-tela [texto]="tela"></app-tela>
 <div class="teclado">
-    <button *ngFor="let valor of botoes" (click)="digita(valor)">{{valor}}</button>
+    <app-botao *ngFor="let valor of botoes" [valor]="valor" (apertou)="digita($event)"></app-botao>
     <button (click)="calcula()">=</button>
 </div>
 
